@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb); /* Degradado azul-violeta */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background: rgba(255, 255, 255, 0.9); /* Más opaco para un look más limpio */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+    display: inline-block;
+    text-align: left;
+}
+
+/* Inputs y selectores */
+input, select, button {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+}
+
+/* Input con borde en tonos azules */
+input {
+    border: 2px solid #4e9fd1; 
+}
+
+/* Selectores con fondo suave y texto blanco */
+select {
+    background-color: #6cc2c4;
+    color: #fff;
+}
+
+/* Botones con tono verde */
+button {
+    background-color: #4e9fd1; /* Azul vibrante */
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+/* Efecto hover para el botón */
+button:hover {
+    background-color: #3b8bb2; /* Azul más oscuro al hacer hover */
+    transform: scale(1.1);
+}
+
+/* Canvas para UML con bordes en verde */
+canvas {
+    background-color: white;
+    border: 5px dashed #6cc2c4; /* Bordes verdes */
+    border-radius: 10px;
+    margin-top: 20px;
+}
