@@ -77,7 +77,7 @@ def download_file(filename):
 import google.generativeai as genai
 
 # clave API
-genai.configure(api_key="AIzaSyBsrUYJXR2jN4YG4lR3_qmhsiCZ110O7sE")
+genai.configure(api_key="")
 
 # Traducir Java a Python con Gemini
 @app.route('/traducir_a_python', methods=['POST'])
